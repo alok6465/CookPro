@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CookPro</title>
+  <link id="mainStyle" rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="text-3xl font-bold text-center text-orange-600">CookPro</h1>
+
+    <p class="slogan">"Smarter Recipe. Better Meals."</p>
+
+
+
+  </header>
+  
+  <nav class="menu-bar">
+    <a href="index.html">🏠 Home</a>
+    <a href="ingredients.html">📝 Enter Ingredients</a>
+    <a href="results.html">🍽️ Recipes</a>
+    <a href="saved.html">🔖 Saved</a>
+    <a href="reviews.html">⭐ Reviews</a>
+    
+  </nav>
+
+  
+  <p class="sub-text">Missing ingredients? Order in 10 mins:</p>
+  <div class="grocery-links">
+    <a href="https://www.zeptonow.com/" target="_blank" class="btn small live-glow">🛒 Zepto</a>
+    <a href="https://blinkit.com/" target="_blank" class="btn small live-glow">🚚 Blinkit</a>
+    <a href="https://www.swiggy.com/instamart" target="_blank" class="btn small live-glow">🥦 Instamart</a>
+  </div>
+
+  <main>
+    <section>
+      <h2>Enter Ingredients You Have</h2>
+      <form id="ingredientForm">
+        <input type="text" id="ingredients" placeholder="e.g., tomato, onion, cheese" required>
+        <button type="submit" class="btn">Find Recipes</button>
+        <button type="button" id="smartBtn" class="btn">AI Smart Recipe </button>
+      </form>
+    </section>
+    
+  </main>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

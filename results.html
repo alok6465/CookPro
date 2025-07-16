@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CookPro</title>
+  <link id="mainStyle" rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>CookPro</h1>
+    <p class="slogan">"Smarter Recipe. Better Meals."</p>
+
+
+
+  </header>
+  
+  <nav class="menu-bar">
+  <a href="index.html">🏠 Home</a>
+  <a href="ingredients.html">📝 Enter Ingredients</a>
+  <a href="results.html">🍽️ Recipes</a>
+  <a href="saved.html">🔖 Saved</a>
+  <a href="reviews.html">⭐ Reviews</a>
+  
+</nav>
+  
+
+
+
+<p class="sub-text">Missing ingredients? Order in 10 mins:</p>
+<div class="grocery-links">
+  <a href="https://www.zeptonow.com/" target="_blank" class="btn small live-glow">🛒 Zepto</a>
+  <a href="https://blinkit.com/" target="_blank" class="btn small live-glow">🚚 Blinkit</a>
+  <a href="https://www.swiggy.com/instamart" target="_blank" class="btn small live-glow">🥦 Instamart</a>
+</div>
+
+
+  <main>
+    <section>
+      <h2>Top Recipes for You</h2>
+      <div id="recipeResults" class="recipe-list"></div>
+    </section>
+    <hr><br>
+<section>
+  <h2>Community Reviews</h2>
+  <div id="reviewsList" class="recipe-list"></div>
+  <br>
+  <a href="reviews.html" class="btn" target="_blank">Write a Review</a>
+</section>
+
+  </main>
+<!-- YouTube Modal -->
+<div id="youtubeModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:1000; justify-content:center; align-items:center;">
+  <div style="position:relative; width:90%; max-width:700px;">
+    <span onclick="closeYouTubeModal()" style="position:absolute; top:10px; right:20px; font-size:30px; color:white; cursor:pointer;">&times;</span>
+    <iframe id="youtubeFrame" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

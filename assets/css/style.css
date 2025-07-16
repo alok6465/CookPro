@@ -1,0 +1,477 @@
+body {
+  margin: 0;
+  font-family: 'Baloo 2', cursive;
+  background: #fff7f0;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #ff6347;
+  padding: 20px;
+  color: white;
+}
+
+.slogan {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+main {
+  padding: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #ff6347;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #e5533d;
+}
+
+.recipe-card a.btn {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea,
+select {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.recipe-scrollable {
+  overflow-y: auto;
+  max-height: 180px;
+  margin: 10px 0;
+  padding-right: 6px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.recipe-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.recipe-buttons .btn {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.recipe-card {
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  height: auto;
+}
+
+.recipe-content {
+  max-height: 260px;
+  overflow-y: auto;
+  margin: 10px 0;
+  padding-right: 8px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Scrollbar style */
+.recipe-content::-webkit-scrollbar {
+  width: 6px;
+  transition: width 0.3s ease;
+}
+
+.recipe-content::-webkit-scrollbar-thumb {
+  background-color: #f6a89a;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recipe-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.recipe-content:hover::-webkit-scrollbar {
+  width: 10px;
+}
+
+.recipe-content:hover::-webkit-scrollbar-thumb {
+  background-color: #f6a89a;
+  box-shadow: 0 0 8px #ffffff;
+  animation: scrollbarPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes scrollbarPulse {
+  0% {
+    background-color: #f6a89a;
+    box-shadow: 0 0 6px #ffffff;
+  }
+  50% {
+    background-color: #f6a89a;
+    box-shadow: 0 0 12px #ffffff;
+  }
+  100% {
+    background-color: #f6a89a;
+    box-shadow: 0 0 6px #ffffff;
+  }
+}
+
+.recipe-card img {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 15px;
+  background: #f0f0f0;
+  color: #555;
+  font-size: 0.9em;
+}
+
+/* Menu Bar */
+.menu-bar {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: #ffe2d6;
+  padding: 12px;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #ff6347;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.menu-bar a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  background: #fff0ea;
+}
+
+.menu-bar a:hover {
+  background-color: #ff6347;
+  color: white;
+}
+
+
+/* Sidebar Menu (for all pages except Home) */
+.hamburger {
+  font-size: 28px;
+  cursor: pointer;
+  position: absolute;
+  top: 22px;
+  left: 18px;
+  z-index: 1001;
+  color: white;
+  background-color: #ff6347;
+  padding: 5px 12px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: #ffe2d6;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0 6px rgba(0,0,0,0.2);
+}
+
+.sidebar a {
+  padding: 12px 25px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #ff6347;
+  color: white;
+}
+
+
+
+
+/* Subtext & Button Highlight */
+.sub-text {
+  font-size: 1rem;
+  color: #444;
+  margin: 10px 0;
+  font-weight: 500;
+  animation: blinkText 1.6s ease-in-out infinite;
+}
+
+@keyframes blinkText {
+  0%, 100% {
+    color: #ff6347;
+  }
+  50% {
+    color: #333;
+  }
+}
+
+.grocery-links {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.btn.small {
+  padding: 8px 18px;
+  font-size: 14px;
+  background-color: #ff6347;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn.small:hover {
+  background-color: #e5533c;
+  transform: scale(1.05);
+}
+
+.live-glow {
+  animation: pulseGlow 1.6s infinite ease-in-out;
+}
+
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 10px #ff8266;
+  }
+  50% {
+    box-shadow: 0 0 20px #ff8266;
+  }
+  100% {
+    box-shadow: 0 0 10px #ff8266;
+  }
+}
+
+/* Modal (YouTube popup) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 0;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 640px;
+  position: relative;
+}
+
+.close {
+  color: #fff;
+  position: absolute;
+  top: -30px;
+  right: 0;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+/* css for reviews/ comment */
+
+.review-card {
+  width: 300px;
+  height: 340px;
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  text-align: left;
+}
+
+.review-img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.review-content {
+  overflow-y: auto;
+  max-height: 100px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  padding-right: 6px;
+}
+
+.review-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.review-content::-webkit-scrollbar-thumb {
+  background-color: #f0cfc9;
+  border-radius: 10px;
+}
+
+.review-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn.danger {
+  background-color: #e63946;
+}
+
+.btn.danger:hover {
+  background-color: #cc2e3c;
+}
+
+/* css for comments/reviews container in result.html page */
+.review-card.preview {
+  width: 250px;
+  max-height: 340px;
+  background: white;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-size: 0.95rem;
+  text-align: left;
+}
+
+.review-header {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.review-thumb {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  margin: 8px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.review-thumb:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
+.review-content.scrollable {
+  max-height: 100px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+.review-content.scrollable::-webkit-scrollbar {
+  width: 5px;
+}
+.review-content.scrollable::-webkit-scrollbar-thumb {
+  background-color: #f0cfc9;
+  border-radius: 10px;
+}
+
+/* --- Image Modal Popup --- */
+.image-modal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 10000;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-box {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+.modal-full-img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+.modal-close {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.modal-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+
