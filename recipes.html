@@ -1,0 +1,79 @@
+<!-- File: recipes.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CookPro – Recipes</title>
+
+  <!-- AOS + Styles -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/recipes.css" />
+</head>
+<body data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0">
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <a href="index.html" class="logo">🍲 CookPro</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="recipes.html" class="active">Recipes</a>
+      <a href="index.html#categories">Categories</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <!-- 🔍 Search Section -->
+  <section class="recipe-search-section">
+    <div class="container">
+      <h1 data-aos="fade-up">Explore <span class="orange-text">Tasty Recipes</span></h1>
+      <p data-aos="fade-up" data-aos-delay="100">Search by ingredients or recipe name.</p>
+      <div class="search-wrapper" data-aos="fade-up" data-aos-delay="200">
+        <div class="search-box">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="e.g., aloo, paneer, rice..."
+            onkeydown="if(event.key==='Enter') handleSearch()"
+          />
+          <button class="search-icon" onclick="handleSearch()" title="Search">🔍</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📦 Recipe Results Section -->
+  <section class="recipe-results-section">
+    <div class="container" id="recipeResults"></div>
+  </section>
+
+  <!-- 📑 Recipe Modal -->
+  <div id="recipeModal" class="recipe-modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">×</span>
+      <h2 id="modalTitle"></h2>
+      <p><strong>Ingredients:</strong> <span id="modalIngredients"></span></p>
+      <p><strong>Steps:</strong> <span id="modalSteps"></span></p>
+      <p><strong>Cooking Time:</strong> <span id="modalTime"></span></p>
+      <iframe id="modalYoutube" width="100%" height="200" frameborder="0" allowfullscreen></iframe>
+      <div class="modal-buttons">
+        <a id="downloadBtn" class="btn orange">Download Recipe</a>
+        <a id="groceryBtn" class="btn green" target="_blank">Get 10-min Grocery</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="assets/js/recipes.js"></script>
+  <script>
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("active");
+    }
+  </script>
+</body>
+</html>

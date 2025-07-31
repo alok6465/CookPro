@@ -1,0 +1,553 @@
+[
+  {
+    "name": "Aloo Paratha",
+    "time": "30 min",
+    "likes": 1500,
+    "image": "assets/images/aloo_paratha.jpg",
+    "youtube": "https://youtu.be/j3pDXY9fqSo?si=Hsz-LOg-YVQN4VVp", 
+    "ingredients": ["potato", "wheat flour", "onion", "spices", "ghee"],
+    "steps": [
+      "Boil and mash potatoes.",
+      "Add chopped onions and spices.",
+      "Stuff mixture into dough and roll.",
+      "Cook on tawa with ghee until golden brown."
+    ]
+  },
+  {
+    "name": "Paneer Butter Masala",
+    "time": "40 min",
+    "likes": 2300,
+    "image": "assets/images/paneer_butter.jpg",
+    "youtube": "https://youtu.be/a30BLUQiFoc?si=KpTPK_Dub9qQrDMk",
+    "ingredients": ["paneer", "tomato", "butter", "cream", "spices"],
+    "steps": [
+      "Cook tomato puree with spices.",
+      "Add cream and butter.",
+      "Add paneer cubes and simmer.",
+      "Serve with naan or rice."
+    ]
+  },
+  {
+    "name": "Masala Dosa",
+    "time": "35 min",
+    "likes": 1800,
+    "image": "assets/images/masala_dosa.jpg",
+    "youtube": "https://youtu.be/PFG1aeYgi7c?si=vgepA5jLOkYj6pYR",
+    "ingredients": ["rice", "urad dal", "potato", "onion", "mustard seeds"],
+    "steps": [
+      "Make dosa batter and ferment overnight.",
+      "Prepare spiced potato filling.",
+      "Spread batter on tawa, cook and fill with masala.",
+      "Serve with chutney and sambar."
+    ]
+  },
+  {
+    "name": "Bread Pakora",
+    "time": "20 min",
+    "likes": 900,
+    "image": "assets/images/bread_pakora.jpg",
+    "youtube": "https://youtu.be/_PjNcDO-uyY?si=yb8BKBpBcPfF3z5b",
+    "ingredients": ["bread", "gram flour", "potato", "green chili", "spices"],
+    "steps": [
+      "Make potato filling with spices.",
+      "Sandwich between bread slices.",
+      "Dip in gram flour batter and deep fry.",
+      "Serve hot with chutney."
+    ]
+  },
+  {
+    "name": "Poha",
+    "time": "15 min",
+    "likes": 1200,
+    "image": "assets/images/poha.jpg",
+    "youtube": "https://youtu.be/UXaOuBoatUA?si=2GpMtjwQeMN5jyk-",
+    "ingredients": ["poha", "onion", "mustard seeds", "green chili", "lemon"],
+    "steps": [
+      "Wash and drain poha.",
+      "Sauté mustard, onions, chili in oil.",
+      "Add poha and cook for 2–3 mins.",
+      "Finish with lemon juice and coriander."
+    ]
+  },
+  {
+    "name": "Chole Bhature",
+    "time": "50 min",
+    "likes": 2000,
+    "image": "assets/images/CholeBhatura.jpg",
+    "youtube": "https://youtu.be/CcJazpU9seo?si=4shWgknD8Bj2G6D4",
+    "ingredients": ["chickpeas", "flour", "yogurt", "onion", "spices"],
+    "steps": [
+      "Soak and cook chickpeas with spices.",
+      "Make dough with flour and yogurt.",
+      "Roll and deep fry bhature.",
+      "Serve chole with bhature and onion slices."
+    ]
+  },
+  {
+    "name": "Dal Tadka",
+    "time": "30 min",
+    "likes": 1600,
+    "image": "assets/images/dal_tadka.jpg",
+    "youtube": "https://youtu.be/8c_scYUN5uc?si=fuPXvx_lb7diEn2h",
+    "ingredients": ["lentils", "onion", "tomato", "garlic", "spices"],
+    "steps": [
+      "Cook lentils until soft.",
+      "Prepare tadka with onion, tomato, garlic, and spices.",
+      "Mix tadka with cooked lentils.",
+      "Serve with rice or roti."
+    ]
+  },
+  {
+    "name": "Vegetable Biryani",
+    "time": "60 min",
+    "likes": 2500,
+    "image": "assets/images/vegetable_biryani.jpg",
+    "youtube": "https://youtu.be/HP2bVwNHJfM?si=tstRzMJa63mjj1kS",
+    "ingredients": ["rice", "mixed vegetables", "spices", "yogurt", "saffron"],
+    "steps": [
+      "Cook rice with spices and saffron.",
+      "Sauté mixed vegetables with spices.",
+      "Layer rice and vegetables, cook on low heat.",
+      "Serve hot with raita."
+    ]
+  },
+  {
+    "name": "Gulab Jamun",
+    "time": "45 min",
+    "likes": 3000,
+    "image": "assets/images/gulab_jamun.jpg",
+    "youtube": "https://youtu.be/QFvd7u_YjVk?si=OTPixaPAkzTb2Jx1",
+    "ingredients": ["milk powder", "flour", "sugar", "ghee", "cardamom"],
+    "steps": [
+      "Make dough with milk powder, flour, and ghee.",
+      "Shape into balls and fry until golden.",
+      "Soak in sugar syrup flavored with cardamom.",
+      "Serve warm or at room temperature."
+    ]
+  },
+  {
+    "name": "Paneer Tikka",
+    "time": "30 min",
+    "likes": 1400,
+    "image": "assets/images/Paneer Tikka.jpg",
+    "youtube": "https://youtu.be/Ccga9wOkA4c?si=rYnDDEz9SVVp_HlV",
+    "ingredients": ["paneer", "bell pepper", "onion", "yogurt", "spices"],
+    "steps": [
+      "Marinate paneer and vegetables in yogurt and spices.",
+      "Skewer and grill until charred.",
+      "Serve with mint chutney."
+    ]
+  },
+  {
+    "name": "Rajma",
+    "time": "40 min",
+    "likes": 1700,
+    "image": "assets/images/rajma.jpg",
+    "youtube": "https://youtu.be/8IOZ7-32Q3Y?si=CRDo1KDoyph0giks",
+    "ingredients": ["kidney beans", "tomato", "onion", "spices", "rice"],
+    "steps": [
+      "Soak and cook kidney beans with spices.",
+      "Prepare gravy with tomatoes and onions.",
+      "Mix beans with gravy and simmer.",
+      "Serve with steamed rice."
+    ]
+  },
+  {
+    "name": "Pani Puri",
+    "time": "25 min",
+    "likes": 1100,
+    "image": "assets/images/pani_puri.jpg",
+    "youtube": "https://youtu.be/fOu3wB0Inx8?si=mZAVDD6w6mbL1StP",
+    "ingredients": ["semolina", "chickpeas", "potato", "spices", "pani"],
+    "steps": [
+      "Make puris from semolina dough and fry until crisp.",
+      "Prepare filling with chickpeas and potatoes.",
+      "Serve with spicy pani and chutney."
+    ]
+  },
+  {
+    "name": "Samosa",
+    "time": "50 min",
+    "likes": 1900,
+    "image": "assets/images/samosa.jpg",
+    "youtube": "https://youtu.be/EKPAfUCn_Jo?si=DoA1DhxFj9-CS966",
+    "ingredients": ["potato", "flour", "peas", "spices", "oil"],
+    "steps": [
+      "Make dough with flour and water.",
+      "Prepare filling with mashed potatoes and peas.",
+      "Shape and fill dough, then deep fry.",
+      "Serve hot with chutney."
+    ]
+  },
+  {
+    "name": "Kheer",
+    "time": "30 min",
+    "likes": 2200,
+    "image": "assets/images/kheer.jpg",
+    "youtube": "https://youtu.be/878WHgjtoMo?si=fYX7GKfVQX03hhGn",
+    "ingredients": ["rice", "milk", "sugar", "cardamom", "nuts"],
+    "steps": [
+      "Boil rice in milk until soft.",
+      "Add sugar and cardamom.",
+      "Garnish with nuts and serve chilled."
+    ]
+  },
+  {
+    "name": "Biryani",
+    "time": "70 min",
+    "likes": 2800,
+    "image": "assets/images/biryani.jpg",
+    "youtube": "https://youtu.be/uygb9O-MDPw?si=SJmRuvZHK7LWrHlt",
+    "ingredients": ["basmati rice", "meat or vegetables", "spices", "yogurt", "saffron"],
+    "steps": [
+      "Marinate meat or vegetables with yogurt and spices.",
+      "Cook rice with saffron and spices.",
+      "Layer rice and meat/vegetables, cook on low heat.",
+      "Serve with raita."
+    ]
+  },
+  {
+    "name": "Dhokla",
+    "time": "30 min",
+    "likes": 1300,
+    "image": "assets/images/dhokla.jpg",
+    "youtube": "https://youtu.be/w_2eb9uaXns?si=rLiOOq3CrDwFrI2W",
+    "ingredients": ["gram flour", "yogurt", "mustard seeds", "green chili", "curry leaves"],
+    "steps": [
+      "Make batter with gram flour and yogurt.",
+      "Steam until cooked.",
+      "Temper with mustard seeds, chili, and curry leaves.",
+      "Serve with green chutney."
+    ]
+  },
+  {
+    "name": "Pav Bhaji",
+    "time": "40 min",
+    "likes": 2100,
+    "image": "assets/images/pav_bhaji.jpg",
+    "youtube": "https://youtu.be/wgV9pik8xqc?si=3GaGc6o_Ht_uzR3f",
+    "ingredients": ["mixed vegetables", "pav bread", "butter", "spices", "onion"],
+    "steps": [
+      "Boil and mash mixed vegetables.",
+      "Cook with spices and butter.",
+      "Serve with buttered pav and chopped onions."
+    ]
+  },
+  {
+    "name": "Aloo Gobi",
+    "time": "30 min",
+    "likes": 1600,
+    "image": "assets/images/aloo_gobi.jpg",
+    "youtube": "https://youtu.be/JihdOvkxQC8?si=gC01DFcAQs4cxAZD",
+    "ingredients": ["potato", "cauliflower", "spices", "onion", "tomato"],
+    "steps": [
+      "Sauté onions and tomatoes with spices.",
+      "Add potato and cauliflower, cook until tender.",
+      "Serve with roti or rice."
+    ]
+  },
+  {
+    "name": "Vada Pav",
+    "time": "25 min", 
+    "likes": 1700,
+    "image": "assets/images/vada_pav.jpg",
+    "youtube": "https://youtu.be/9vB0AKrWw50?si=mXZiw2qM89ywlEZQ",
+    "ingredients": ["potato", "bread", "spices", "green chili", "coriander"],
+    "steps": [
+      "Make spiced potato filling.",
+      "Shape into patties and fry.",
+      "Serve in bread with chutney and chili."
+    ]   
+  },
+  {
+    "name": "Pulao",
+    "time": "30 min",
+    "likes": 1500,
+    "image": "assets/images/pulao.jpg",
+    "youtube": "https://youtu.be/729vJOqTTp0?si=laFGnLmChKuAJ6Dk",
+    "ingredients": ["rice", "mixed vegetables", "spices", "cashews", "raisins"],
+    "steps": [
+      "Sauté spices, cashews, and raisins.",
+      "Add mixed vegetables and rice.",
+      "Cook until rice is fluffy.",
+      "Serve with raita."
+    ]
+  },
+  {
+    "name": "Kadhi Pakora",
+    "time": "45 min",
+    "likes": 1900,
+    "image": "assets/images/kadhi_pakora.jpg",
+    "youtube": "https://youtu.be/Zk3pddws0Lg?si=8pI9GVQ09JhyB6yR",
+    "ingredients": ["yogurt", "gram flour", "onion", "spices", "coriander"],
+    "steps": [
+      "Make batter with gram flour and spices.",
+      "Fry pakoras until golden.",
+      "Cook yogurt with spices to make kadhi.",
+      "Add pakoras to kadhi and simmer."
+    ]
+  },
+  {
+    "name": "Bhindi Masala",
+    "time": "30 min",
+    "likes": 1400,
+    "image": "assets/images/bhindi_masala.jpg",
+    "youtube": "https://youtu.be/UcEwOxVOOKU?si=ZupsnEfGWM-seinZ",
+    "ingredients": ["okra", "onion", "tomato", "spices", "coriander"],
+    "steps": [
+      "Sauté onions and tomatoes with spices.",
+      "Add chopped okra and cook until tender.",
+      "Garnish with coriander and serve."
+    ]
+  },
+  {
+    "name": "Methi Thepla",
+    "time": "30 min",
+    "likes": 1200,
+    "image": "assets/images/methi_thepla.jpg",
+    "youtube": "https://youtu.be/l-6wWsZoFpE?si=srZ8oFZfc_Jtuffp",
+    "ingredients": ["fenugreek leaves", "wheat flour", "spices", "yogurt", "oil"],
+    "steps": [
+      "Make dough with fenugreek leaves, flour, and spices.",
+      "Roll into thin flatbreads.",
+      "Cook on tawa with oil until golden.",
+      "Serve with yogurt or pickle."
+    ]
+  },
+  {
+    "name": "Pesarattu",
+    "time": "30 min",
+    "likes": 1300,
+    "image": "assets/images/pesarattu.jpg",
+    "youtube": "https://youtu.be/kDyh_3bbryw?si=iWZ7Itcpp_1peN8y",
+    "ingredients": ["green gram", "rice", "ginger", "green chili", "onion"],
+    "steps": [
+      "Soak green gram and rice overnight.",
+      "Blend with ginger and chili to make batter.",
+      "Cook on tawa until crisp.",
+      "Serve with chutney."
+    ]
+  },
+  {
+    "name":"Butter Chicken",
+    "time": "60 min",
+    "likes": 3000,
+    "image": "assets/images/butter_chicken.jpg",
+    "youtube": "https://youtu.be/b7yuoRk227Y?si=BlsQC2MC48Ki_nNH",
+    "ingredients": ["chicken", "butter", "cream", "tomato", "spices"],
+    "steps": [
+      "Marinate chicken in yogurt and spices.",
+      "Cook tomato puree with butter and cream.",
+      "Add marinated chicken and simmer until cooked.",
+      "Serve with naan or rice."
+    ]
+  },
+  {
+    "name": "Tandoori Chicken" ,
+    "time": "50 min",
+    "likes": 2700,
+    "image": "assets/images/tandoori_chicken.jpg",
+    "youtube": "https://youtu.be/A3lcRok1zf8?si=qoNNCSPJ212R4MzZ",
+    "ingredients": ["chicken", "yogurt", "spices", "lemon", "cilantro"],
+    "steps": [
+      "Marinate chicken in yogurt, spices, and lemon juice.",
+      "Skewer and grill until charred.",
+      "Garnish with cilantro and serve with mint chutney."
+    ]
+  },
+  {
+    "name": "Chicken 65",
+    "time": "30 min",
+    "likes": 2000,
+    "image": "assets/images/chicken_65.jpg",
+    "youtube": "https://youtu.be/_c6LkHxaSec?si=C-zWfPa4uEIYOSfM",
+    "ingredients": ["chicken", "yogurt", "spices", "curry leaves", "green chili"],
+    "steps": [
+      "Marinate chicken with yogurt and spices.",
+      "Fry until crispy.", 
+      "Temper with curry leaves and green chili.",
+      "Serve hot as a snack or appetizer."
+    ]
+  },
+  {
+    "name": "Fish Curry",
+    "time": "40 min",
+    "likes": 2200,
+    "image": "assets/images/fish_curry.jpg",
+    "youtube": "https://youtu.be/-QEfeKjpzpw?si=Lvmv0BWux4Zer0XM",
+    "ingredients": ["fish", "coconut milk", "spices", "onion", "tomato"],
+    "steps": [
+      "Sauté onions and tomatoes with spices.",
+      "Add fish pieces and cook until tender.",
+      "Pour in coconut milk and simmer.",
+      "Serve with steamed rice."
+    ]
+  },
+  {
+    "name": "Egg Curry",
+    "time": "30 min",
+    "likes": 1600,
+    "image": "assets/images/egg_curry.jpg",
+    "youtube": "https://youtu.be/xH2iedsq0qA?si=3Pg9CMLIQbQF87b9",
+    "ingredients": ["eggs", "onion", "tomato", "spices", "coriander"],
+    "steps": [
+      "Boil eggs and peel.",
+      "Sauté onions and tomatoes with spices.",
+      "Add boiled eggs and simmer.",
+      "Garnish with coriander and serve."
+    ]
+  },
+  {
+    "name": "Palak Paneer",
+    "time": "35 min",
+    "likes": 2100,
+    "image": "assets/images/palak_paneer.jpg",
+    "youtube": "https://youtu.be/JI4DtsiYm34?si=kdzOTqkcX23vp8ZD",
+    "ingredients": ["spinach", "paneer", "onion", "tomato", "spices"],
+    "steps": [
+      "Blanch spinach and blend to a puree.",
+      "Sauté onions and tomatoes with spices.",
+      "Add paneer cubes and spinach puree, cook until thick.",
+      "Serve with roti or rice."
+    ]
+  },
+  {
+    "name": "Baingan Bharta",
+    "time": "40 min",
+    "likes": 1800,
+    "image": "assets/images/baingan_bharta.jpg",
+    "youtube": "https://youtu.be/yRZKfDI28Ro?si=UqVFD3iZePjWXSKb",
+    "ingredients": ["eggplant", "onion", "tomato", "spices", "cilantro"],
+    "steps": [
+      "Roast eggplant until charred, peel and mash.",
+      "Sauté onions and tomatoes with spices.",
+      "Add mashed eggplant and cook until well combined.",
+      "Garnish with cilantro and serve."
+    ]
+  },
+  {
+    "name": "Mutton Rogan Josh",
+    "time": "90 min",
+    "likes": 3200,
+    "image": "assets/images/mutton_rogan_josh.jpg",
+    "youtube": "https://youtu.be/ZaZNZdehT0E?si=J2z9zQTZnnQx5SZW",
+    "ingredients": ["mutton", "yogurt", "spices", "onion", "ginger"],
+    "steps": [
+      "Marinate mutton with yogurt and spices.",
+      "Sauté onions and ginger, add marinated mutton.",
+      "Cook until tender and gravy thickens.",
+      "Serve with naan or rice."
+    ]
+  },
+  {
+    "name": "Chicken Biryani",
+    "time": "70 min",
+    "likes": 2900,
+    "image": "assets/images/chicken_biryani.jpg",
+    "youtube": "https://youtu.be/aleED1mc5kI?si=0w9D3CqHoWSFiwWE",
+    "ingredients": ["basmati rice", "chicken", "spices", "yogurt", "saffron"],
+    "steps": [
+      "Marinate chicken with yogurt and spices.",
+      "Cook rice with saffron and spices.",
+      "Layer rice and chicken, cook on low heat.",
+      "Serve with raita."
+    ]
+  },
+  {
+    "name": "Vegetable Manchurian",
+    "time": "30 min",
+    "likes": 1700,
+    "image": "assets/images/vegetable_manchurian.jpg",
+    "youtube": "https://youtu.be/1sbd79UHIv8?si=RNz07gap3AMFJWW_",
+    "ingredients": ["mixed vegetables", "cornflour", "soy sauce", "ginger", "garlic"],
+    "steps": [
+      "Make small balls from mixed vegetables and cornflour.",
+      "Fry until golden brown.",
+      "Prepare sauce with soy sauce, ginger, and garlic.",
+      "Add fried balls to sauce and serve hot."
+    ]
+  },
+  {
+    "name": "Prawn Curry",
+    "time": "40 min",
+    "likes": 2400,
+    "image": "assets/images/prawn_curry.jpg",
+    "youtube": "https://youtu.be/XQqYIgw--5s?si=V0ZzfsGeyupIxjkW",
+    "ingredients": ["prawns", "coconut milk", "spices", "onion", "tomato"],
+    "steps": [
+      "Sauté onions and tomatoes with spices.",
+      "Add prawns and cook until pink.",
+      "Pour in coconut milk and simmer.",
+      "Serve with steamed rice."
+    ]
+  },
+  {
+    "name": "Dal Makhani",
+    "time": "50 min",
+    "likes": 2600,
+    "image": "assets/images/dal_makhani.jpg",
+    "youtube": "https://youtu.be/JaZYpDp5dN4?si=I-_aFTKGEgLxg-XH",
+    "ingredients": ["black lentils", "kidney beans", "cream", "butter", "spices"],
+    "steps": [
+      "Soak and cook black lentils and kidney beans.",
+      "Prepare gravy with cream, butter, and spices.",
+      "Mix cooked lentils and beans with gravy.",
+      "Serve with naan or rice."
+    ]
+  },
+  {
+    "name": "Roti",
+    "time": "15 min",
+    "likes": 1000,
+    "image": "assets/images/roti.jpg",
+    "youtube": "https://youtu.be/5NjaPL0Fe00?si=xhozA0Or2aFtE6o1",
+    "ingredients": ["wheat flour", "water", "salt"],
+    "steps": [
+      "Make dough with wheat flour, water, and salt.",
+      "Divide into small balls and roll into flatbreads.",
+      "Cook on tawa until puffed and golden.",
+      "Serve hot with curries."
+    ]
+  },
+  {
+    "name": "Naan",
+    "time": "30 min",
+    "likes": 1500,
+    "image": "assets/images/naan.jpg",
+    "youtube": "https://youtu.be/K-4TrsOxQUI?si=9O6fB5kSkheIGV_d",
+    "ingredients": ["all-purpose flour", "yeast", "yogurt", "water", "salt"],
+    "steps": [
+      "Make dough with all-purpose flour, yeast, yogurt, water, and salt.",
+      "Let it rise until doubled in size.",
+      "Roll into flatbreads and cook in tandoor or oven.",
+      "Serve with butter or garlic topping."
+    ]
+  },
+  {
+    "name": "Paneer Tikka",
+    "time": "30 min", 
+    "likes": 1400,
+    "image": "assets/images/paneer_tikka.jpg",
+    "youtube": "https://youtu.be/QeIrg5BHEIA?si=CCCtlXScjT9clcNW",
+    "ingredients": ["paneer", "bell pepper", "onion", "yogurt", "spices"],
+    "steps": [
+      "Marinate paneer and vegetables in yogurt and spices.",
+      "Skewer and grill until charred.",
+      "Serve with mint chutney."
+    ]
+  },
+  {
+    "name": "Chole",
+    "time": "40 min",
+    "likes": 2000,
+    "image": "assets/images/chole.jpg",
+    "youtube": "https://youtu.be/M-ohmJswy6A?si=Thk24j7BhGzPYjMI",
+    "ingredients": ["chickpeas", "onion", "tomato", "spices", "ginger"],
+    "steps": [
+      "Soak and cook chickpeas until tender.",
+      "Sauté onions, tomatoes, and spices.",
+      "Mix cooked chickpeas with gravy and simmer.",
+      "Serve with bhature or rice."
+    ]
+  }
+]
