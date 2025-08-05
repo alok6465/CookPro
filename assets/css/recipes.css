@@ -1,0 +1,283 @@
+/* File: assets/css/recipes.css */
+
+.recipe-search-section {
+  padding: 120px 20px 40px;
+  background: #fffef6;
+  text-align: center;
+}
+.recipe-search-section h1 {
+  font-size: 2.5rem;
+}
+.recipe-search-section .search-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.search-box input {
+  padding: 10px 15px;
+  width: 300px;
+  border: 2px solid #ff6347;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+}
+.search-icon {
+  padding: 10px 20px;
+  background: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+/* Recipe Cards */
+.recipe-results-section .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+}
+.recipe-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.recipe-card:hover {
+  transform: translateY(-5px);
+}
+.recipe-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.recipe-card .content {
+  padding: 15px;
+}
+.recipe-card .title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.recipe-card .time-likes {
+  display: flex;
+  justify-content: space-between;
+  color: #888;
+}
+
+/* Modal */
+.recipe-modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+.recipe-modal .modal-content {
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 600px;
+  height: 80%;
+  border-radius: 10px;
+  position: relative;
+  overflow-y: auto;
+}
+.recipe-modal .modal-content::-webkit-scrollbar {
+  width: 8px;
+}
+.recipe-modal .modal-content::-webkit-scrollbar-thumb {
+  background: #ff6347;
+  border-radius: 10px;
+}
+.close-btn {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.modal-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.modal-buttons .btn {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.btn.orange {
+  background: #ff6347;
+}
+.btn.green {
+  background: #28a745;
+}
+.recipe-modal h2 {
+  margin-top: 0;
+}
+.recipe-modal .ingredients {
+  margin-bottom: 20px;
+}
+.recipe-modal .steps {
+  white-space: pre-line;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.modal-description {
+  font-style: italic;
+  margin: 10px 0;
+  color: #444;
+}
+
+.modal-benefits {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  color: #2e7d32;
+}
+.modal-benefits li::before {
+  content: "✔ ";
+  color: #28a745;
+  margin-right: 6px;
+}
+
+.modal-buttons button#shareBtn {
+  background-color: #f97316;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.modal-buttons button#shareBtn:hover {
+  background-color: #ff6b0f;
+}
+
+/* 🔗 Share Button Styles */
+.share-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#shareBtn {
+  background-color: #ff6347;
+  color: #fff;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#shareBtn:hover {
+  background-color: #e2543b;
+}
+
+/* Dropdown Menu */
+.share-options {
+  display: none;
+  position: absolute;
+  top: 110%;
+  right: 0;
+  background: #fff;
+  min-width: 200px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.share-options a {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+  transition: background 0.2s;
+}
+
+.share-options a:hover {
+  background-color: #f2f2f2;
+}
+
+/* Responsive for small screens */
+@media (max-width: 500px) {
+  .modal-buttons {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .share-options {
+    right: auto;
+    left: 0;
+    width: 100%;
+  }
+}
+
+
+/* Recipes Reviews- Comments  */
+#reviewSection {
+  margin-top: 20px;
+  padding: 10px;
+  background: #fffef6;
+  border-top: 1px solid #ccc;
+}
+
+#reviewsList {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.review-card {
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 8px;
+}
+
+.review-card img {
+  max-width: 100px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+#reviewForm {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#reviewForm input, #reviewForm textarea {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#reviewForm button {
+  background-color: #ff6347;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
